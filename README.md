@@ -1,11 +1,11 @@
-# mlopsarch_jd293
+# jailbreak_template_variants_distribution_profile
 
 **分析MLOps 平台架构师·越狱模板的变体识别的数值分布并标出离群点。**
 
-`mlopsarch_jd293` —— 抽取数值做分布分析，用中位数绝对偏差识别MLOps 平台架构师·越狱模板的变体识别上的离群点
+`jailbreak_template_variants_distribution_profile` —— 抽取数值做分布分析，用中位数绝对偏差识别MLOps 平台架构师·越狱模板的变体识别上的离群点
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`mlopsarch_jd293.py` 拷走就能用
+- 单文件，`jailbreak_template_variants_distribution_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install evasbroese-mlopsarch_jd293
+pip install evasbroese-jailbreak_template_variants_distribution_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-mlopsarch_jd293 --help
+jailbreak_template_variants_distribution_profile --help
 ```
 
-也可以不用安装，直接把 `mlopsarch_jd293.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `jailbreak_template_variants_distribution_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ mlopsarch_jd293 --help
 ## 用法
 
 ```bash
-python mlopsarch_jd293.py --file input.txt
-python mlopsarch_jd293.py --text "示例内容"
-python mlopsarch_jd293.py --file input.txt --json
+python jailbreak_template_variants_distribution_profile.py --file input.txt
+python jailbreak_template_variants_distribution_profile.py --text "示例内容"
+python jailbreak_template_variants_distribution_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python mlopsarch_jd293.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_mlopsarch_jd293.py
+python test_jailbreak_template_variants_distribution_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_mlopsarch_jd293.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/evasbroese/mlopsarch_jd293>
+- GitHub 仓库：<https://github.com/evasbroese/jailbreak_template_variants_distribution_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_mlopsarch_jd293.py
 evasbroese 做MLOps 平台架构师·越狱模板的变体识别相关的问题，方向对标银河通用的架构MLOps 平台架构师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://evasbroese.github.io>
-- 仓库：<https://github.com/evasbroese/mlopsarch_jd293>
+- 仓库：<https://github.com/evasbroese/jailbreak_template_variants_distribution_profile>
 
 ## 许可
 

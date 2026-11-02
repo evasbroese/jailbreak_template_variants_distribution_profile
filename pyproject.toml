@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "evasbroese-mlopsarch_jd293"
+name = "evasbroese-jailbreak_template_variants_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别MLOps 平台架构师·越狱模板的变体识别上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://evasbroese.github.io"
-Repository = "https://github.com/evasbroese/mlopsarch_jd293"
-Issues = "https://github.com/evasbroese/mlopsarch_jd293/issues"
+Repository = "https://github.com/evasbroese/jailbreak_template_variants_distribution_profile"
+Issues = "https://github.com/evasbroese/jailbreak_template_variants_distribution_profile/issues"
 
 [project.scripts]
-mlopsarch_jd293 = "mlopsarch_jd293:main"
+jailbreak_template_variants_distribution_profile = "jailbreak_template_variants_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["mlopsarch_jd293"]
+py-modules = ["jailbreak_template_variants_distribution_profile"]
